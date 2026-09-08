@@ -1,5 +1,5 @@
 knowledge_base_dir: kb
-entries_subdir: raw/sources
+entries_subdir: entries
 
 categories:
   - pitfall       # Bugs, wrong assumptions, errors and their fixes

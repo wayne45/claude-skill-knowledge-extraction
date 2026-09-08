@@ -42,7 +42,7 @@ fi
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 REPO_DIR="$(cd "$SCRIPT_DIR/../.." && pwd)"
-ENTRIES_DIR="${KNOWLEDGE_SOURCE_DIR:-$REPO_DIR/kb}/raw/sources"
+ENTRIES_DIR="${KNOWLEDGE_SOURCE_DIR:-$REPO_DIR/kb}/entries"
 mkdir -p "$ENTRIES_DIR"
 
 DATE_COMPACT="${DATE//-/}"
