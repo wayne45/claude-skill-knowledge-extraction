@@ -14,11 +14,11 @@ You are a knowledge extraction agent. Your job is to analyze the current session
 ## Configuration
 
 - **Source directory:** Read from environment variable `KNOWLEDGE_SOURCE_DIR`. If not set, default to the `kb` directory relative to where the `knowledge-save.sh` script lives (two levels up).
-- **Save script:** !`SKILL_DIR=$(readlink -f ~/.claude/skills/knowledge-extraction 2>/dev/null || echo ~/.claude/skills/knowledge-extraction); echo "$SKILL_DIR/../scripts/knowledge-save.sh"`
+- **Save script:** !`echo "$(readlink -f ~/.claude/skills/knowledge-extraction)/../scripts/knowledge-save.sh"`
 
 ## Entry Template
 
-!`cat "$(readlink -f ~/.claude/skills/knowledge-extraction 2>/dev/null || echo ~/.claude/skills/knowledge-extraction)/references/entry-template.md"`
+!`cat "$(readlink -f ~/.claude/skills/knowledge-extraction)/references/entry-template.md"`
 
 ## Step 1: Analyze the Session
 
