@@ -1,0 +1,17 @@
+knowledge_base_dir: kb
+entries_subdir: raw/sources
+
+categories:
+  - pitfall       # Bugs, wrong assumptions, errors and their fixes
+  - decision      # Why choice A over B, trade-off analysis
+  - preference    # User's workflow, coding style, tool preferences
+  - technical     # API usage, tool config, environment setup, useful patterns
+  - repository    # Service-to-repo mapping, what a service does, key tech stack
+
+severity_levels:
+  - low           # Nice to know
+  - medium        # Saves time
+  - high          # Prevents significant issues
+  - critical      # Prevents outage or data loss
+
+file_naming: "{category}_{slug}_{YYYYMMDD}.md"
