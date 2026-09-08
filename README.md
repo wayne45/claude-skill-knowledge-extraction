@@ -1,4 +1,4 @@
-# Agent Learnings
+# Knowledge Extraction
 
 A Claude Code skill that collects knowledge from sessions on demand. Type `/done` before exiting to extract pitfalls, decisions, preferences, technical notes, and repository mappings, saving them as Markdown source files for import into a knowledge base (e.g., llmwiki).
 
@@ -82,7 +82,7 @@ export KNOWLEDGE_SOURCE_DIR=/path/to/custom/kb
 ## Directory Structure
 
 ```
-agent-learnings/
+knowledge-extraction/
 ├── README.md
 ├── bin/
 │   ├── install.sh          # Install script
